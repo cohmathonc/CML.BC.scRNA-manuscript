@@ -5,7 +5,7 @@ This directory contains all analysis code required to reporduce all findings and
 
 **Note** This repository is a work in progress. Further annotation and separate functions for producing manuscript figures are in the works. For now, the workspace notebook contains all code required to reproduce the manuscript figures, analysis, and results as well as intermediate analyses and some additional analyses not used in the manuscript. 
 
-**Second Note** GEO upload and paper submission is in progress. Links and accession number will be updated as those become available.
+⏰ GEO upload and paper submission is in progress. Links and accession number will be updated as those become available.
 
 
 ## Setup
@@ -14,13 +14,13 @@ This directory contains all analysis code required to reporduce all findings and
   ** Link will be updated once GEO is made public **
 
 2. **Run notebook**
-   A single [notebook]() includes all analysis performed in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1). The required R libraries are listed in the "Setup" section. The workspace is broken up into code "chunks" which can be executed in any order. Each chunk is labeled as to it's function and may contain multiple steps. The final chunk contains the code to produce each figure. 
+   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) includes all analysis performed in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1). The required R libraries are listed in the "Setup" section. The workspace is broken up into code "chunks" which can be executed in any order. Each chunk is labeled as to it's function and may contain multiple steps. The final chunk contains the code to produce each figure. 
    
-   Many of the chunks were used to produce data stored in the Seurat object and do not need to be rerun. These chunks are indicated. Some chunks produce additional R objects that are required to generate the figures or other output objects not used in the manuscript (i.e. DEG comparisons and GSEA results). Successfully running the [notebook](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1) will product the following output directories:
+   Many of the chunks were used to produce data stored in the Seurat object and do not need to be rerun. These chunks are indicated. Some chunks produce additional R objects that are required to generate the figures or other output objects not used in the manuscript (i.e. DEG comparisons and GSEA results). Successfully running the [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) will product the following output directories:
    
     - **`manuscript_figures`**:
     
-      All figures and tables included in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1).
+      All scRNA figures and tables included in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1).
     
     - **`DEG_output`**
     
