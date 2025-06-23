@@ -4,12 +4,16 @@ Repository for all code used for analysis and figures
 
  **Note** GEO upload and paper submission are in progress. Links and accession number will be updated as those become available.
 
-## R
+## scRNA_analysis
 
-All RNA-seq analysis and processing.
+  All scRNA-seq analysis, processing, and figure generation.
+
+## MATLAB
+
+  All state-transition modeling code and figure generation
 
 ## Data availability
-** GEO accession ID will appear here **
+  ** GEO accession ID will appear here **
 
 ## Contact
 
