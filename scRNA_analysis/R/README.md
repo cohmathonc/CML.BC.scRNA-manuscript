@@ -40,7 +40,7 @@ This directory contains all analysis code required to reporduce all findings and
   ** Link will be updated once GEO is made public **
 
 2. **Run notebook**
-   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) includes all analysis performed 
+   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/scRNA_analysis/R/Rscript_human_CML_scRNA_data.R) includes all analysis performed and will generate all figures. This workspace script is formated into chunks similar to the R script above and has a single output directory for plots.
 
 ## Contact
 
