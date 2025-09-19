@@ -34,6 +34,14 @@ This directory contains all analysis code required to reporduce all findings and
   
       Miscellaneous plots created during analysis.
 
+## Human data analysis
+1. **Get data**
+  The only data required to run the R notebook is the `Seurat` object saved as an R `rds` file from GEO (Accession: PENDING) .
+  ** Link will be updated once GEO is made public **
+
+2. **Run notebook**
+   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) includes all analysis performed 
+
 ## Contact
 
 - [David Frankhouser](mailto:dfrankhouse@coh.org) @dfrankhouser
