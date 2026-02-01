@@ -13,8 +13,8 @@ This directory contains all analysis code required to reporduce all findings and
   The only data required to run the R notebook is the `Seurat` object saved as an R `rds` file from GEO (Accession: GSE296507 - RELEASE PENDING PUBLICATION) .
   ** Link will be updated once GEO is made public **
 
-2. **Run notebook**
-   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) includes all analysis performed in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1). The required R libraries are listed in the "Setup" section. The workspace is broken up into code "chunks" which can be executed in any order. Each chunk is labeled as to it's function and may contain multiple steps. The final chunk contains the code to produce each figure. 
+2. **Run notebooks**
+   A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) includes all primary analysis performed in the [manuscript](https://www.biorxiv.org/content/10.1101/2025.05.14.653262v1). The required R libraries are listed in the "Setup" section. The workspace is broken up into code "chunks" which can be executed in any order. Each chunk is labeled as to it's function and may contain multiple steps. The final chunk contains the code to produce each figure. 
    
    Many of the chunks were used to produce data stored in the Seurat object and do not need to be rerun. These chunks are indicated. Some chunks produce additional R objects that are required to generate the figures or other output objects not used in the manuscript (i.e. DEG comparisons and GSEA results). Successfully running the [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) will product the following output directories:
    
@@ -36,11 +36,18 @@ This directory contains all analysis code required to reporduce all findings and
 
 ## Human data analysis
 1. **Get data**
-  The only data required to run the R notebook is the `Seurat` object saved as an R `rds` file from GEO (Accession: PENDING) .
-  ** Link will be updated once GEO is made public **
+  The only data required to run the R notebook is the `Seurat` object saved as an R `rds` file from GEO (Accession: GSE296507) .
+  ** Link will be added once GEO is made public **
 
 2. **Run notebook**
    A single [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/scRNA_analysis/R/Rscript_human_CML_scRNA_data.R) includes all analysis performed and will generate all figures. This workspace script is formated into chunks similar to the R script above and has a single output directory for plots.
+
+## Additional analysis performed during peer review
+1. **Run main R code**
+   Successfully run [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_CML.CP%2BBC.scRNA_paper_workspace.R) to  produce required  R objects.
+
+2. **Run Notebook**
+   The R code in [R notebook](https://github.com/cohmathonc/CML.BC.scRNA-manuscript/blob/main/R/Rscript_revision_workspace.R) can be run to produce all figures and analysis performed during peer review.
 
 ## Contact
 
